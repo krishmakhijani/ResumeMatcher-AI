@@ -2,30 +2,6 @@
 
 <div align="center">
 
-# Resume Matcher
-
-### AI Based Free & Open Source ATS, Resume Matcher to tailor your resume to a job description. Find the best keywords, and gain deep insights into your resume.
-
-</div>
-
-<br>
-
-<div align="center">
-
-![Stars](https://img.shields.io/github/stars/srbhr/Resume-Matcher?style=flat-square&color=EA1179)
-![Apache 2.0](https://img.shields.io/github/license/srbhr/Resume-Matcher?style=flat-square&color=525FE1) ![Issues](https://img.shields.io/github/issues/srbhr/Resume-Matcher?style=flat-square&color=F86F03) ![Forks](https://img.shields.io/github/forks/srbhr/Resume-Matcher?style=flat-square&color=0079FF) [![Powered by Qdrant](https://img.shields.io/badge/Vector_search_by-Qdrant-982176?style=flat-square)](https://github.com/qdrant/qdrant)
-
-[![Discord](https://custom-icon-badges.demolab.com/badge/Join%20Discord-blue?style=flat-square&logo=discord&color=F0FF42&logoColor=293462)](https://discord.gg/t3Y9HEuV34)
-[![Resume Matcher](https://custom-icon-badges.demolab.com/badge/www.resumematcher.fyi-gold?style=flat-square&logo=globe&logoColor=black)](https://www.resumematcher.fyi)
-[![Resume Matcher](https://custom-icon-badges.demolab.com/badge/Live_Demo_on_Streamlit-green?style=flat-square&logo=live&color=F55353)](https://resume-matcher.streamlit.app/)
-
-[![Resume Matcher Docs](https://img.shields.io/badge/Checkout%20Resume%20Matcher%20Docs-%230288D1.svg?style=flat-square&logo=bookstack&logoColor=white&color=red)](https://github.com/srbhr/Resume-Matcher-Docs)
-
-<a href="https://www.producthunt.com/posts/resume-matcher?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-resume&#0045;matcher" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=401261&theme=light" alt="Resume&#0032;Matcher - Free&#0032;and&#0032;Open&#0045;Source&#0032;ATS&#0032;Tool&#0032;to&#0032;Match&#0032;Resumes&#0032;to&#0032;Job&#0032;Desc&#0046; | Product Hunt" style="width: 180px; height: 50px;" width="200" height="54"/></a>
-
-</div>
-
-<div align="center">
 
 ## How does it work?
 
@@ -54,17 +30,16 @@ On top of that, there are various data visualizations that I've added to help yo
 </div>
 
 Follow these steps to set up the environment and run the application.
+   
+1.```bash clone this repo https://github.com/krishmakhijani/Resume-Matcher.git ```
 
-1. Fork the repository [here](https://github.com/srbhr/Resume-Matcher/fork).
-
-2. Clone the forked repository.
-
+3.
    ```bash
-   git clone https://github.com/<YOUR-USERNAME>/Resume-Matcher.git
+   git clone https://github.com/krish/Resume-Matcher.git
    cd Resume-Matcher
    ```
 
-3. Create a Python Virtual Environment:
+4. Create a Python Virtual Environment:
 
    - Using [virtualenv](https://learnpython.com/blog/how-to-use-virtualenv-python/):
 
@@ -82,7 +57,7 @@ Follow these steps to set up the environment and run the application.
      python -m venv env
      ```
 
-4. Activate the Virtual Environment.
+5. Activate the Virtual Environment.
 
    - On Windows.
 
@@ -132,24 +107,24 @@ Follow these steps to set up the environment and run the application.
         pyenv activate venv
      ```
 
-5. Install Dependencies:
+6. Install Dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-6. Prepare Data:
+7. Prepare Data:
 
    - Resumes: Place your resumes in PDF format in the `Data/Resumes` folder. Remove any existing contents in this folder.
    - Job Descriptions: Place your job descriptions in PDF format in the `Data/JobDescription` folder. Remove any existing contents in this folder.
 
-7. Parse Resumes to JSON:
+8. Parse Resumes to JSON:
 
    ```python
    python run_first.py
    ```
 
-8. Run the Application:
+9. Run the Application:
 
    ```python
    streamlit run streamlit_app.py
@@ -196,69 +171,3 @@ Follow these steps to set up the environment and run the application.
 
 <div align="center">
 
-## Join Us, Contribute!
-
-</div>
-
-Pull Requests & Issues are not just welcomed, they're celebrated! Let's create together.
-
-🎉 Join our lively [Discord](https://dsc.gg/resume-matcher) community and discuss away!
-
-💡 Spot a problem? Create an issue!
-
-👩‍💻 Dive in and help resolve existing [issues](https://github.com/srbhr/Resume-Matcher/issues).
-
-🔔 Share your thoughts in our [Discussions & Announcements](https://github.com/srbhr/Resume-Matcher/discussions).
-
-🚀 Explore and improve our [Landing Page](https://github.com/srbhr/website-for-resume-matcher). PRs always welcome!
-
-📚 Contribute to the [Resume Matcher Docs](https://github.com/srbhr/Resume-Matcher-Docs) and help people get started with using the software. 
-
-#### Tech Stack
-
-Current:
-
-![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&color=blue&logoColor=green)
-
-Upcoming:
-
-![Python](https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![& More](https://custom-icon-badges.demolab.com/badge/And_More-white?style=flat-square&logo=plus&logoColor=black)
-
-<br/>
-
-<div align="center">
-
-## Enhance Open-Source Development: Donate and Be Part of Our Journey!
-
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/srbhr)
-[![Sponsor on GitHub](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/srbhr)
-
-</div>
-
----
-
-### Heads Up! 📝
-
-Your support means the world to us 💙. We're nurturing this project with an open-source community spirit, and we have an ambitious roadmap ahead! Here are some ways you could contribute and make a significant impact:
-
-✨ Transform our Streamlit dashboard into something more robust.
-
-📚 Enhance our functionality by enabling resume upload and parsing.
-
-🐳 Simplify usage by adding a Docker image.
-
-💡 Improve our parsing algorithm, making data more accessible.
-
-🖋 Share your insights and experiences in a blog post to help others.
-
-🎨 Give our [landing page](https://github.com/srbhr/website-for-resume-matcher) a fresh look using React, Vue, or your preferred framework.
-
-Take the leap, contribute, and let's grow together! 🚀
-
----
-
-### Our Contributors ✨
-
-<a href="https://github.com/srbhr/Resume-Matcher/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=srbhr/Resume-Matcher" />
-</a>
